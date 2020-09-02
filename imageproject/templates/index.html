@@ -63,6 +63,7 @@
                                 <h5 class="card-title">{{i.title}}</h5>
                               <p class="card-text">{{i.description}}</p>
                               <a href="#" class="btn btn-primary"onclick="showmodalwithImage('{{i.image}}')">View</a>
+                              <a href="/media/{{i.image}}" download><button class="btn btn-danger">Download Now</button></a>
                             </div>
                           </div>
                         {% endfor %}
